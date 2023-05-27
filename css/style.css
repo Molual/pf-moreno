@@ -200,7 +200,13 @@ hr{
 .navbar-toggler{
     background-color: white;
 }
-
+.textaboutus{
+    background-color: white;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    padding: 15px;
+    color: #000c24;
+}
 @media only screen and (max-width: 990px){
     .carousel{
         display: none;    
