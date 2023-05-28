@@ -316,6 +316,35 @@ hr{
 .newsaside a h4:hover{
     color: gray;
 }
+.maincontact{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.contactform{
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+}
+.contactform label{
+    color: #000c24;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contactform input{
+    width: 100%;
+    max-width: 500px;
+}
+.contactform textarea{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
 @media only screen and (max-width: 1400px){
     .newsaside{
         display: none;        
