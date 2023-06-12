@@ -1,0 +1,344 @@
+@media only screen and (max-width: 1400px){
+    .noticias{
+        .newspage {  display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 0.5fr 0.5fr 1fr 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "newsbig-a newsbig-a newsbig-a newsbig-a"
+              "newssmall-a newssmall-b newssmall-c newssmall-d"
+              "newssmall-e newssmall-f newssmall-g newssmall-h"
+              "newsbig-b newsbig-b newsbig-b newsbig-b"
+              "newsbig-c newsbig-c newsbig-c newsbig-c";
+    
+            .newssmall-a { grid-area: newssmall-a; }
+          
+            .newssmall-b { grid-area: newssmall-b; }
+          
+            .newssmall-c { grid-area: newssmall-c; }
+          
+            .newssmall-d { grid-area: newssmall-d; }
+          
+            .newsbig-a { grid-area: newsbig-a; }
+          
+            .newssmall-e { grid-area: newssmall-e; }
+          
+            .newssmall-f { grid-area: newssmall-f; }
+          
+            .newssmall-g { grid-area: newssmall-g; }
+          
+            .newssmall-h { grid-area: newssmall-h; }
+          
+            .newsbig-b { grid-area: newsbig-b; }
+          
+            .newsbig-c { grid-area: newsbig-c; }
+
+            .newsaside{
+                display: none;        
+            }
+        }
+    }
+
+      
+      
+      
+}
+@media only screen and (max-width: 990px){
+    .carousel{
+        display: none;    
+    }
+    .nav-item{
+        background-color:#000c24;
+    }
+    .d-flex input{
+        display: none;
+    }
+    .d-flex button{
+        display: none;
+    }
+    .noticias{
+        .newspage {  display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "newsbig-a"
+              "newssmall-a"
+              "newssmall-b"
+              "newssmall-c"
+              "newssmall-d"
+              "newsbig-b"
+              "newssmall-e"
+              "newssmall-f"
+              "newssmall-g"
+              "newssmall-h"
+              "newsbig-c";
+          }
+          
+          .newsbig-a { grid-area: newsbig-a; }
+          
+          .newssmall-a { grid-area: newssmall-a; }
+          
+          .newssmall-b { grid-area: newssmall-b; }
+          
+          .newssmall\.c { grid-area: newssmall-c; }
+          
+          .newssmall-d { grid-area: newssmall-d; }
+          
+          .newsbig-b { grid-area: newsbig-b; }
+          
+          .newssmall-e { grid-area: newssmall-e; }
+          
+          .newssmall-f { grid-area: newssmall-f; }
+          
+          .newssmall-g { grid-area: newssmall-g; }
+          
+          .newssmall-h { grid-area: newssmall-h; }
+          
+          .newsbig-c { grid-area: newsbig-c; }
+    }
+
+    .maincalendar{
+        .calendar {  display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "month month month month month"
+              "d1 d2 d3 d4 d5"
+              "d6 d7 d8 d9 d10"
+              "d11 d12 d13 d14 d15"
+              "d16 d17 d18 d19 d20"
+              "d21 d22 d23 d24 d25"
+              "d26 d27 d28 d29 d30"
+              "d31 d32 d33 d34 d35";
+          }
+          
+          .month { grid-area: month; }
+          
+          .d1 { grid-area: d1; }
+          
+          .d2 { grid-area: d2; }
+          
+          .d3 { grid-area: d3; }
+          
+          .d4 { grid-area: d4; }
+          
+          .d5 { grid-area: d5; }
+          
+          .d6 { grid-area: d6; }
+          
+          .d7 { grid-area: d7; }
+          
+          .d8 { grid-area: d8; }
+          
+          .d9 { grid-area: d9; }
+          
+          .d10 { grid-area: d10; }
+          
+          .d11 { grid-area: d11; }
+          
+          .d12 { grid-area: d12; }
+          
+          .d13 { grid-area: d13; }
+          
+          .d14 { grid-area: d14; }
+          
+          .d15 { grid-area: d15; }
+          
+          .d16 { grid-area: d16; }
+          
+          .d17 { grid-area: d17; }
+          
+          .d18 { grid-area: d18; }
+          
+          .d19 { grid-area: d19; }
+          
+          .d20 { grid-area: d20; }
+          
+          .d21 { grid-area: d21; }
+          
+          .d22 { grid-area: d22; }
+          
+          .d23 { grid-area: d23; }
+          
+          .d24 { grid-area: d24; }
+          
+          .d25 { grid-area: d25; }
+          
+          .d26 { grid-area: d26; }
+          
+          .d27 { grid-area: d27; }
+          
+          .d28 { grid-area: d28; }
+          
+          .d29 { grid-area: d29; }
+          
+          .d30 { grid-area: d30; }
+          
+          .d31 { grid-area: d31; }
+          
+          .d32 { grid-area: d32; }
+          
+          .d33 { grid-area: d33; }
+          
+          .d34 { grid-area: d34; }
+          
+          .d35 { grid-area: d35; }
+    }
+    
+      
+
+      .revsec2{
+        flex-direction: column;
+      }
+      .mainreviews{
+        .reviewsgrid {  display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "r1"
+              "r2"
+              "r3"
+              "r4"
+              "r5"
+              "r6"
+              "r7"
+              "r8";
+          }
+          
+          .r2 { grid-area: r2; }
+          
+          .r3 { grid-area: r3; }
+          
+          .r4 { grid-area: r4; }
+          
+          .r5 { grid-area: r5; }
+          
+          .r6 { grid-area: r6; }
+          
+          .r7 { grid-area: r7; }
+          
+          .r8 { grid-area: r8; }
+          
+          .r1 { grid-area: r1; } 
+             
+    }
+      }
+
+
+@media only screen and (max-width: 570px){
+    .noti a{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .noti a img{
+        width: 100%;
+        height: auto;
+    }   
+}
+@media only screen and (max-width: 450px){
+    .subtitle {
+        font-size: 2rem;
+    }
+    .footer{
+        .footer__links a img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .maincalendar{
+        .calendar {  display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "month month"
+              "d1 d2"
+              "d3 d4"
+              "d5 d6"
+              "d7 d8"
+              "d9 d10"
+              "d11 d12"
+              "d13 d14"
+              "d15 d16"
+              "d17 d18"
+              "d19 d20"
+              "d21 d22"
+              "d23 d24"
+              "d25 d26"
+              "d27 d28"
+              "d29 d30";
+          }
+          
+          .month { grid-area: month; }
+          
+          .d1 { grid-area: d1; }
+          
+          .d2 { grid-area: d2; }
+          
+          .d3 { grid-area: d3; }
+          
+          .d4 { grid-area: d4; }
+          
+          .d5 { grid-area: d5; }
+          
+          .d6 { grid-area: d6; }
+          
+          .d7 { grid-area: d7; }
+          
+          .d8 { grid-area: d8; }
+          
+          .d9 { grid-area: d9; }
+          
+          .d10 { grid-area: d10; }
+          
+          .d11 { grid-area: d11; }
+          
+          .d12 { grid-area: d12; }
+          
+          .d13 { grid-area: d13; }
+          
+          .d14 { grid-area: d14; }
+          
+          .d15 { grid-area: d15; }
+          
+          .d16 { grid-area: d16; }
+          
+          .d17 { grid-area: d17; }
+          
+          .d18 { grid-area: d18; }
+          
+          .d19 { grid-area: d19; }
+          
+          .d20 { grid-area: d20; }
+          
+          .d21 { grid-area: d21; }
+          
+          .d22 { grid-area: d22; }
+          
+          .d23 { grid-area: d23; }
+          
+          .d24 { grid-area: d24; }
+          
+          .d25 { grid-area: d25; }
+          
+          .d26 { grid-area: d26; }
+          
+          .d27 { grid-area: d27; }
+          
+          .d28 { grid-area: d28; }
+          
+          .d29 { grid-area: d29; }
+          
+          .d30 { grid-area: d30; }
+    }     
+      
+}

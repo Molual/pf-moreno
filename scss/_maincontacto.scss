@@ -1,0 +1,29 @@
+.maincontact{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    .contactform{
+        background-color: $fontligth;
+        margin: 30px;
+        padding: 30px;
+        border-radius: 30px;
+        width: 100%;
+        height: auto;
+        label{
+            color: $fontdark;
+            font-size: 1.5rem;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        input{
+            width: 100%;
+            max-width: 500px;
+        }
+        textarea{
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+        }
+    }
+}

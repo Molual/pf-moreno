@@ -1,0 +1,54 @@
+.header {
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-between;
+    .head1{
+        background-image: url(../img/titleback.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 250px;
+        padding: 30px;    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .title{
+            font-family: 'Shadows Into Light', cursive;
+            color: $fontligth;
+            text-align: center;    
+            text-decoration: none;
+            h1{
+                font-size: 3rem;
+                &:hover{
+                    color: $fontdarkhover;
+                }
+            }    
+        }
+    }
+    nav{
+        .container-fluid{
+            background-color: $fontdark;
+            height: 80px;
+            border-radius: 10px;
+            .navbar-toggler{
+                background-color: $fontligth;
+            }
+            div{
+                ul{
+                    li{
+                        .nav-link{
+                            color: $fontligth;
+                            font-family: 'Oswald', sans-serif;
+                            font-size: 1.2rem;
+                            &:hover{
+                                color: $fontdarkhover;
+                            }
+                        } 
+                    }
+                }
+            }    
+        }
+    }
+    
+       
+}

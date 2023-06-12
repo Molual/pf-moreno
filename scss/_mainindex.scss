@@ -1,0 +1,86 @@
+.main{
+    .carousel{
+        .carousel-item{
+            a{
+                text-decoration: none;
+                color: $fontligth;
+                &:hover{
+                    color: $fontdarkhover;
+                }
+            }
+        }
+
+    }
+    .reviews{
+        .card-group{
+            padding-bottom: 30px;
+            .card-body a{
+                text-decoration: none;
+                color: $fontdark;
+                &:hover{
+                    color: $fontligthhover    
+                }
+            }
+        }
+        
+    }
+    .noticias{
+        .newswall {  display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "news-a"
+              "news-b"
+              "news-c"
+              "news-d"
+              "news-e";            
+                  
+            .news-a { 
+                grid-area: news-a;
+            }
+      
+            .news-b { 
+                grid-area: news-b; 
+            }
+      
+            .news-c { 
+                grid-area: news-c; 
+            }
+      
+            .news-d { 
+                grid-area: news-d; 
+            }
+      
+            .news-e { 
+                grid-area: news-e; 
+            }
+
+            .noti{
+                a{
+                    display: flex;
+                    padding: 20px;
+                    border-style: solid;
+                    border-color: $fontligth;
+                    border-radius: 30px;
+                    text-decoration: none;
+                    color: $fontligth;
+                    font-family: 'Oswald', sans-serif;
+                    align-items: center;
+                    img{
+                        height: 230px;
+                        padding: 15px;
+                        border-radius: 30px;
+                        &:hover{
+                            opacity: $imgopacity;
+                        }
+                    }
+                    h4:hover{
+                        color: $fontdarkhover;
+                    }    
+                }            
+            }
+        }
+    }
+}

@@ -1,0 +1,228 @@
+.maincalendar{
+    .calendar-title{
+        color: $fontligth;
+        padding: 20px;
+    }
+    .calendar {  display: grid;
+        border-style: solid;
+        border-radius: 30px;
+        background-color: $fontligth;
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "month month month month month month month"
+          "d1 d2 d3 d4 d5 d6 d7"
+          "d8 d9 d10 d11 d12 d13 d14"
+          "d15 d16 d17 d18 d19 d20 d21"
+          "d22 d23 d24 d25 d26 d27 d28"
+          "d29 d30 d31 d32 d33 d34 d35";
+        .month { 
+            grid-area: month;
+            border-bottom: solid;
+            text-align: center;
+            h3{
+                color: $fontdark;
+            }             
+        }
+          
+        .d1 { 
+            grid-area: d1; 
+            border-style: solid;
+        }
+          
+        .d2 { 
+            grid-area: d2; 
+            border-style: solid;
+        }
+          
+        .d3 { 
+            grid-area: d3; 
+            border-style: solid;
+        }
+          
+        .d4 { 
+            grid-area: d4; 
+            border-style: solid;
+        }
+          
+        .d5 { 
+            grid-area: d5; 
+            border-style: solid;
+        }
+          
+        .d6 { 
+            grid-area: d6; 
+            border-style: solid;
+        }
+          
+        .d7 { 
+            grid-area: d7; 
+            border-style: solid;
+        }
+          
+        .d8 { 
+            grid-area: d8; 
+            border-style: solid;
+        }
+          
+        .d9 { 
+            grid-area: d9; 
+            border-style: solid;
+        }
+          
+        .d10 { 
+            grid-area: d10; 
+            border-style: solid;
+        }
+          
+        .d11 { 
+            grid-area: d11; 
+            border-style: solid;
+        }
+          
+        .d12 { 
+            grid-area: d12; 
+            border-style: solid;
+        }
+          
+        .d13 { 
+            grid-area: d13; 
+            border-style: solid;
+        }
+          
+        .d14 { 
+            grid-area: d14; 
+            border-style: solid;
+        }
+          
+        .d15 { 
+            grid-area: d15; 
+            border-style: solid;
+        }
+          
+        .d16 { 
+            grid-area: d16; 
+            border-style: solid;
+        }
+          
+        .d17 { 
+            grid-area: d17; 
+            border-style: solid;
+        }
+          
+        .d18 { 
+            grid-area: d18; 
+            border-style: solid;
+        }
+          
+        .d19 { 
+            grid-area: d19; 
+            border-style: solid;
+        }
+          
+        .d20 { 
+            grid-area: d20; 
+            border-style: solid;
+        }
+          
+        .d21 { 
+            grid-area: d21; 
+            border-style: solid;
+        }
+          
+        .d22 { 
+            grid-area: d22; 
+            border-style: solid;
+        }
+          
+        .d23 { 
+            grid-area: d23; 
+            border-style: solid;
+        }
+          
+        .d24 { 
+            grid-area: d24; 
+            border-style: solid;
+        }
+          
+        .d25 { 
+            grid-area: d25; 
+            border-style: solid;
+        }
+          
+        .d26 { 
+            grid-area: d26; 
+            border-style: solid;
+        }
+          
+        .d27 { 
+            grid-area: d27; 
+            border-style: solid;
+        }
+          
+        .d28 { 
+            grid-area: d28; 
+            border-style: solid;
+        }
+          
+        .d29 { 
+            grid-area: d29; 
+            border-style: solid;
+            border-bottom-left-radius: 25px;
+        }
+          
+        .d30 { 
+            grid-area: d30; 
+            border-style: solid;
+        }
+          
+        .d31 { 
+            grid-area: d31;
+            border: solid;
+            border-top: solid;
+        }
+          
+        .d32 { 
+            grid-area: d32;
+            border: solid;
+        }
+          
+        .d33 { 
+            grid-area: d33;
+            border: solid;
+        }
+          
+        .d34 { 
+            grid-area: d34;
+            border: solid;
+        }
+          
+        .d35 { 
+            grid-area: d35;
+            border: solid;
+            border-bottom-right-radius: 25px;
+        }
+        
+        .day{
+            border-color: $fontligth;
+            background-color: $fontdark;
+            p{
+                color: $fontligth;
+            }
+            a{
+                img{
+                    width: 100%;
+                    height: auto;
+                    border-radius: 30px;
+                    &:hover{
+                        transform: scale(2,2);
+                    }
+                }
+            }
+        }
+    }
+}
